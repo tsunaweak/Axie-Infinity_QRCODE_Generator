@@ -1,0 +1,9 @@
+requests
+json
+qrcode
+web3
+time
+discord
+os
+asyncio
+
