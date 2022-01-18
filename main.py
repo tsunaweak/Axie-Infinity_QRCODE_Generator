@@ -164,7 +164,6 @@ Example:
 !listUser
 ```"""
                 await ctx.send(msg)
-
     def get_raw_memssage(self):
         request_body = {"operationName": "CreateRandomMessage", "variables": {}, "query": "mutation CreateRandomMessage {\n  createRandomMessage\n}\n"}
         r = requests.post('https://axieinfinity.com/graphql-server-v2/graphql', headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}, data=request_body)
