@@ -5,3 +5,5 @@ Rename the storage.json.example to storage.json
 Add the Discord Token on storage.json
 
 
+Note:
+The Commands will only work on users with admin permission/access
